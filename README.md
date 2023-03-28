@@ -1,39 +1,56 @@
-# Rebecca-Nakhanu
-Week 1 Toy problems
+Project Title:Week1 Toy Problems
 
-Toy Problems
-This repository contains my solutions to three toy problems written in JavaScript. The toy problems are:
-Student Grade Generator
-Speed Detector
-Net Salary Calculator
+Project Description
+The project contains solutions for three toy problems in JavaScript: Student Grade Generator, Speed Detector, and Net Salary Calculator.
 
-Getting Started
-To run the toy problems, first clone this repository to your local machine:
-After cloning the repository, navigate to the root directory of the project in your terminal.Create a folder then under this folder create 3 other folders that shall contain each of the solutions
+The Student Grade Generator
+The Student Grade Generator takes input from the user in the range of 0 to 100 and outputs the corresponding grade, which could be A, B, C, D, or E.The Student Grade Generator is supposed to take input from the user in the range of 0-100 and then output the corresponding grade based on a defined grading criteria as shown below:
+A > 79
+B - 60 to 79
+C - 59 to 49
+D - 40 to 49
+E - less than 40
 
-Usage
-Student Grade Generator
-The Student Grade Generator prompts the user to input a student's marks and returns the corresponding grade. This problem is solved in the studentGrade.js file.
+The speed Detector
+The Speed Detector program is designed to take the speed of a car as input, and then output a message based on the speed limit and the number of demerit points earned by the driver. The program works as follows:
+If the speed is less than 70 km/h, the program should output the message "Ok".
+If the speed is 70 km/h or more, the program should calculate the number of demerit points earned by the driver. For every 5 km/h above the speed limit (70 km/h), the driver earns one demerit point.
+After calculating the number of demerit points, the program should output the number of demerit points earned by the driver.
+If the driver earns more than 12 demerit points, the program should output the message "License suspended".
+For example, if the driver is going at a speed of 80 km/h, the program should output "Points: 2", since the driver is going 10 km/h above the speed limit (70 km/h), and earns 2 demerit points.
 
-Speed Detector
-The Speed Detector takes the speed of a car as input and calculates the demerit points for exeeding the speed limit.This toy problem is found and solved in the speedDetectors.js file.
+The Net Salary Calculator 
+The Net Salary Calculator is supposed to take the inputs of an individual's basic salary and benefits and calculate the following values:
 
-Net Salary Calculator
-The Net Salary Calculator toy  problem is found under the netSalary.js file.It calculates an individual’s Net Salary by getting the inputs of basic salary and benefits.One is supposed to calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary.
+Payee (i.e. Tax)
+NHIF Deductions
+NSSF Deductions
+Gross Salary
+Net Salary
+These values are calculated using the tax rates provided by KRA, NHIF, and NSSF, which can be found in the links provided in the challenge description. The output should be the calculated values of all the above mentioned components.These  are the links to help calculate the above
+- https://www.aren.co.ke/payroll/taxrates.htm Links to an external site.
 
-Contributing
-If you have any suggestions for improving these toy problems or find any bugs, please feel to open an issue in the GitHub repository.
+Links to an external site.-  Links to an external site.Links to an external site.
 
-License
-My work is open for only those who want to benefit academically,any other irrelevant use is not allowed.
+- www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 
-Acknowledgements
-Great regards to google for enlightening me on how to solve the problems.
+Set Up Instructions
+Prerequisites are as follows:
+Clone the repository to your local machine.
+Navigate to the project directory using the command line.
+cfreate a folder in the visual code editor and then create 3 files that shall be used to solve each problem.Ensure that each solution is placed in a separate file.
+Install any required dependencies using npm install.
+Use javascript to solve all the problems.
+When done; 
+-Push the solution to the above repository once done.
 
+ -Submit the repository link for grading.
+
+-Ensure your repository has a well written README.
+
+Author 
+this project was created by Rebecca Wakhungu
+ License
+ this work is meant for academic benefits alone,feel free to use the code.
 Contact
-Rebecca wakhungu
-telephone:+254799950290
-email:wakhungurebecca6@gmail.com
-
-
-
+contact me on my personal email address; wakhungurebecca6@gmail.com
